@@ -495,7 +495,7 @@ if (CMAKE_SYSTEM_NAME MATCHES "(Linux|OpenBSD|FreeBSD|NetBSD|DragonFly)")
       PURPOSE "Required for glib mainloop support"
       DESCRIPTION "The object system used for Pango and GTK+"
       URL "https://developer.gnome.org/gobject"
-      TYPE REQUIRED
+      TYPE OPTIONAL
    )
 
    find_package(Iconv)
